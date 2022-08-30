@@ -1,7 +1,7 @@
 # #💻/😎 Portfolio 
 
 
-![Welcome](./img/Logo_Portfolio.png?raw=true)
+![Welcome](./img/portfolioPerfil.png?raw=true)
 
 📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://vercel.com/)] Access the site ➡ ( https://portfolio-js-wine.vercel.app/ )
 
@@ -18,6 +18,7 @@ You need to use Front-end.
 * HTML
 * CSS
 * JAVASCRIPT
+* PHP
 
 ```
 ## 📁 Layout:
