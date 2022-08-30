@@ -1,0 +1,900 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Eczar:wght@500&family=Poppins&family=Rubik+Iso&display=swap');
+:root
+{
+  --green: #0CF20C;
+}
+
+*
+{
+    font-family: 'Azeret Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+
+*::selection
+{
+  background: var(--green);
+  color: #333;
+}
+
+html
+{
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+html::-webkit-scrollbar-thumb
+{
+  background: var(--green);
+}
+
+body
+{
+  background: black;
+  overflow-x: hidden;
+  padding-left: 35rem;
+}
+
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 35rem;
+  /* background: #1b61f7; */
+  background-image: linear-gradient(180deg, #180F4A,#090422, black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+header .avatar-user img
+{
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: .7rem solid var(--green);
+}
+
+header .avatar-user .name
+{
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+header .avatar-user .postagem
+{
+  font-size: 2rem;
+  color: #fff;
+}
+
+header .navbar
+{
+  width: 100%;
+}
+
+header .navbar ul
+{
+  list-style: none;
+  padding: 1rem 3rem;
+}
+
+header .navbar ul li a
+{
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  /* background: #368EE7; */
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 5rem;
+}
+
+header .navbar ul li a:hover
+{
+  background: var(--green);
+}
+
+
+/* ======================================================================= */
+                      /* MENU BURGUER */
+#menu
+{
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: #74AFEB;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: none;
+}
+
+
+/* ======================================================================= */
+                      /* MAIN / TEXT DISASSEMBLY */
+
+.conteudoDigitando-t
+{
+    display: flex;
+   top: 45px;
+   left: 630px;
+} 
+
+div .conteudoDigitando-t
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #130e23;
+   }
+  
+   section .conteudoDigitando-t
+   {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: #d2ee19;
+    margin: 40px;
+    max-width: 560px;
+   }
+  
+   section .text span
+   {
+    position: relative;
+    display: inline-block;
+   }
+  
+section
+{
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 15rem;
+}
+
+.home h3
+{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.home h1
+{
+  font-size: 5rem;
+  color: #fff;
+}
+
+.home h1 span
+{
+  color: var(--green);
+}
+
+.home p
+{
+  font-size: 2rem;
+  color: #fff;  
+  padding: 1rem 0;
+}
+
+.btn
+{
+  padding: .7rem 3rem;
+  background: #f2dc16;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  border-radius: 5rem;
+}
+
+.btn i
+{
+  padding: 0 .5rem;
+  font-size: 1.8rem;
+}
+
+.btn:hover
+{
+  background: var(--green);
+}
+
+/* ======================================================================= */
+                      /* SEÇÃO SOBRE */
+
+.heading
+{
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: .1rem solid #fff4;
+  color: #fff;
+}
+
+.heading span
+{
+  color: var(--green);
+}
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.sobre .row .info
+{
+  flex: 1 1 48rem;
+  padding: 2em 1rem;
+  padding-left: 6rem;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.sobre .row .habilidades
+{
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sobre .row .habilidades .box
+{
+  width: 20rem;
+  background: #eee;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: 4rem;
+  color: var(--green);
+}
+
+
+/* ======================================================================= */
+                                      /* CARD 3D PORTFOLIO */
+
+  .container-card
+  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    perspective: 1200px;
+    margin-top: 100px;
+  }
+
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -30px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  .card,
+  .cardA,
+  .cardB,
+  .cardC,
+  .cardD,
+  .cardE
+  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 500px;
+    transform-style: preserve-3d;
+    cursor: pointer; 
+  }
+  
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+  
+  .card .card-bg img,
+  .cardA .card-bgA img,
+  .cardB .card-bgB img,
+  .cardC .card-bgC img,
+  .cardD .card-bgD img,
+  .cardE .card-bgE img
+  {
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px; 
+  }
+
+  .card .card-bg img
+  {
+    max-width: 58%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 54%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 60%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 20px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #3ECAF6;
+  }
+  
+  .card .title h1, 
+  .card .title h2, 
+  .card .title h3,
+  .cardA .titleA h1, 
+  .cardA .titleA h2, 
+  .cardA .titleA h3,
+  .cardB .titleB h1, 
+  .cardB .titleB h2, 
+  .cardB .titleB h3,
+  .cardC .titleC h1, 
+  .cardC .titleC h2, 
+  .cardC .titleC h3,
+  .cardD .titleD h1, 
+  .cardD .titleD h2, 
+  .cardD .titleD h3,
+  .cardE .titleE h1, 
+  .cardE .titleE h2, 
+  .cardE .titleE h3
+  {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  .card .images,
+  .cardA .imagesA,
+  .cardB .imagesB,
+  .cardC .imagesC,
+  .cardD .imagesD,
+  .cardE .imagesE
+  {
+    z-index: 2;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 250px;
+    top: -130px;
+    right: 70px;
+    transition: all 0.3s ease-out;
+  }
+
+/* ======================================================================= */
+                    /*SEÇÃO FORMULARIO */
+
+.contato .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 4rem;
+}
+
+.contato .row form .box
+{
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  width: 100%;
+  /* box-shadow: inset 0 0 1em var(--green); */
+  border-radius: 10px;
+}
+
+.contato .row form .box::placeholder
+{
+  text-transform: capitalize;
+}
+
+.contato .row form .message
+{
+  height: 15rem;
+  resize: none;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+.preencha ul li
+{
+  font-size: 2rem;
+  color: red;
+  text-decoration: none;
+}
+
+/* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: -90px;
+  /* border-bottom: 4px solid #EFEFEF; */
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.peLink img{
+  width: 66px;
+  filter: drop-shadow(0px 0px 1px #4b4b50);
+  animation: flutuar 3s linear infinite;
+}
+
+@keyframes flutuar{
+  0%,
+  100%{
+      transform: translateY(0px);
+  }
+  50%{
+      transform: translateY(-23px);
+  }
+}
+
+.peLink img:nth-child(2){
+  animation-delay: .2s;
+}
+.peLink img:nth-child(3){
+  animation-delay: .4s;
+}
+.peLink img:nth-child(4){
+  animation-delay: .6s;
+}
+.peLink img:nth-child(5){
+  animation-delay: .8s;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 30px;
+}
+
+/* ======================================================================= */
+                      /* JOGO DA VELHA */
+
+.jogo .box-conteudo div
+{
+  text-align: center;
+}
+
+.square{
+  width: 70px;
+  height: 70px;
+  background-color: beige;
+  border: 1px solid gray;
+  display: inline-block;
+}
+.o
+{
+  position: relative;
+}
+
+.o::after
+{
+  position: absolute;
+  content: '\1F436';
+  font-size: 30px;
+  /* altura da minha linha 100px pq? é altura do meu quadrado */
+  line-height: 50px; 
+  /* isso serve para centralizar imagem */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x
+{
+  position: relative;
+}
+
+.x::after
+{
+  position: absolute;
+  content: '\1F431';
+  font-size: 30px;
+  /* altura da minha linha 100px pq? é altura do meu quadrado */
+  line-height: 50px; 
+  /* isso serve para centralizar imagem */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#reset
+{
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: #e63b1c;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+/* ======================================================================= */
+                        /* JANKEPON */
+
+*
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+#titulo
+{
+  color: rgb(253, 252, 252);
+  font-size: 170%;
+  font-weight: bold;
+  text-align: center;
+  background-color: yellow;
+  width: 10%;
+  margin: auto;
+  padding: 1%;
+  border-radius: 3%;
+  text-shadow: 1px 1px 1px #fff,
+    -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000 ;
+}
+
+#placar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#jogador, #computador
+{
+  position: relative;
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 20px;
+  height: 115px;
+  padding: 20px;
+  color: #fff;
+}
+
+#jogador
+{
+  background-color: var(--green);
+}
+
+#computador
+{
+  background-color: #180F4A;
+}
+
+#versus
+{
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+ font-weight: bold;
+ color: #fff;
+}
+
+#jogador-nome, 
+#computador-nome
+{
+  margin: 0;
+  padding: 0;
+  margin-top: -20px;
+}
+
+#jogador-nome
+{
+  text-align: left;
+}
+
+#computador-nome
+{
+  text-align: right;
+}
+
+#jogador-pontos, 
+#computador-pontos
+{
+  position: absolute;
+  top: 8px;
+  font-size: 22px;
+}
+
+#jogador-pontos
+{
+  right: 20px; 
+}
+
+ul#jogador-escolha, 
+ul#computador-escolha
+{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul#jogador-escolha li, 
+ul#computador-escolha li
+{
+  display: inline;
+}
+
+ul#jogador-escolha li a, 
+ul#computador-escolha li a 
+{
+  opacity: .2;
+}
+
+ul#jogador-escolha li a:hover, 
+ul#jogador-escolha li a.selecionado, 
+ul#computador-escolha li a.selecionado
+{
+  opacity: 1;
+}
+
+ul#jogador-escolha li a img, 
+ul#computador-escolha li a img
+{
+  max-width: 60px; 
+}
+
+#mensagens
+{
+  background-color: #b2bec3;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px 0;
+  margin-top: 10px;
+}
+
+/* ======================================================================= */
+                        /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 35%;
+}
+
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1200px */
+
+@media(max-width:1200px)
+{
+  html
+  {
+    font-size: 55%;
+  }
+
+  .home
+  {
+    padding: 1rem 4rem;
+  }
+}
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 991px */
+@media(max-width:991px)
+{
+  header
+  {
+    left: -120%;
+  }
+
+  #menu
+  {
+    display: block;
+  }
+
+  header.toggle
+  {
+    left: 0%;
+  }
+
+  body
+  {
+    padding: 0;
+  }
+}
+
+/*********************************************************************************/
+                      /* RESPONSIVO MEDIA QUERIES -- 700px */
+
+@media(max-width:700px)
+{
+  html
+  {
+    font-size: 50%;
+  }
+}
+
+/*********************************************************************************/
