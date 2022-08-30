@@ -579,11 +579,11 @@ section
   text-decoration: none;
 }
 
+/* ======================================================================= */
 /* ICONES REDES-SOCIAIS */
 .peLink{
   display: flex;
-  margin-top: -90px;
-  /* border-bottom: 4px solid #EFEFEF; */
+  margin-top: -60px;
   border-radius: 5px;
   margin-left: 50px;
 }
