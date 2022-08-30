@@ -16,9 +16,23 @@ function handleClick(event){
 
   setTimeout(()=>{
   if(playerTime == 0){
-  alert('Cachorro Venceu!');
+  // alert('Cachorro Venceu!');
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Cachorro Venceu!',
+    showConfirmButton: false,
+    timer: 1500
+  })
   }else{
-  alert('Gato Venceu!');
+  // alert('Gato Venceu!');
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Gato Venceu!',
+    showConfirmButton: false,
+    timer: 1500
+  })
   }
 } , 13);
 }
