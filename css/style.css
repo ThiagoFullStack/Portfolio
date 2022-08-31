@@ -844,10 +844,15 @@ ul#computador-escolha li a img
   max-width: 35%;
 }
 
+
+
+
+
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1920px and 1200px  ( COMPUTER ) */
 
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1920px), 
+       screen and (min-height: 1200px) {
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -891,10 +896,10 @@ ul#computador-escolha li a img
 {
   font-size: 6rem;
   color: var(--green);
-}
+} 
 
                                     /* CARD DO PORTFOLIO */
-  .container, 
+.container, 
   .containerA, 
   .containerB, 
   .containerC, 
@@ -1016,7 +1021,7 @@ ul#computador-escolha li a img
     top: -40px;
     right: 10px;
     transition: all 0.3s ease-out;
-  }
+  } 
 
 
                           /* CURRICULO  */
@@ -1026,8 +1031,8 @@ ul#computador-escolha li a img
 }
 
 .box-conteudo img{
-  max-width: 50%;
-}
+  max-width: 55%;
+} 
 
                                                  /*SEÇÃO FORMULARIO */
 
@@ -1093,7 +1098,7 @@ ul#computador-escolha li a img
 {
   color: var(--green);
   padding-right: 1rem;
-}
+} 
 
 
                                             /* REDES SOCIAIS */
@@ -1122,13 +1127,72 @@ ul#computador-escolha li a img
 }
 
 }
+ 
+
+
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1920px and 1080px  ( COMPUTER ) */
+
+@media screen and (min-width: 1920px), 
+       screen and (min-height: 1080px) {
+
+                                      /* ABOUT MY EXPERIENCE */
+
+
+.sobre .row .habilidades .box
+{
+  width: 23rem;
+  background: #eee;
+  text-align: center;
+  padding: 4rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+
+                                    /* CARD DO PORTFOLIO */
+   .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: 80px;
+    margin-top: -10px;
+  }
+     
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -150px;
+  }
+
+
+
+                          /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 38%;
+}
+
+ 
+}
 
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1680px and 1050px  ( COMPUTER )  */
 
-
-@media screen and (min-width: 1680px){
+@media screen and (min-width: 1680px), 
+       screen and (min-height: 1050px) {
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1172,7 +1236,7 @@ ul#computador-escolha li a img
 {
   font-size: rem;
   color: var(--green);
-} 
+}
 
                                     /* CARD DO PORTFOLIO */
   .container, 
@@ -1299,7 +1363,7 @@ ul#computador-escolha li a img
   }
 
                                                   /*SEÇÃO FORMULARIO */
-
+ 
 .contato .row .conteudo
 {
   flex: 1 1 30rem;
@@ -1363,39 +1427,14 @@ ul#computador-escolha li a img
   max-width: 43%;
 }
 
-
-
-                                                /* ICONES REDES-SOCIAIS */
-.peLink{
-  display: flex;
-  margin-top: -60px;
-  border-radius: 5px;
-  margin-left: 150px;
-}
-
-.rodape-linkd img{
-  margin-right: 35px;
-}
-
-.rodape-zapp img{
-  width: 18%;
-  margin-top: 4px;
-}
-
-.nomeDesenvolvedor
-{
-  display: flex;
-  margin-top: -5px;
-  margin-left: 130px;
-}
 } 
 
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1600px and 900px  ( COMPUTER )  */
 
-
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1600px), 
+       screen and (min-height: 900px) {
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1628,7 +1667,7 @@ ul#computador-escolha li a img
 }
 
 .box-conteudo img{
-  max-width: 38%;
+  max-width: 39%;
 }
 
                                                 /* ICONES REDES-SOCIAIS */
@@ -1655,14 +1694,14 @@ ul#computador-escolha li a img
   margin-left: 130px;
 }
 
-}
+} 
 
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1440px and 900px  ( COMPUTER )  */
 
-
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px), 
+       screen and (min-height: 900px) {
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1832,63 +1871,7 @@ ul#computador-escolha li a img
     transition: all 0.3s ease-out;
   }
 
-                                                     /*SEÇÃO FORMULARIO */
-
-.contato .row .conteudo
-{
-  flex: 1 1 30rem;
-  padding: 4rem;
-  padding-bottom: 0;
-}
-
-.contato .row form
-{
-  flex: 1 1 45rem;
-  padding: 2rem;
-  margin: 2rem;
-  padding-bottom: 4rem;
-  margin-top: 200px;
-}
-
-.contato .row form .box
-{
-  padding: 1.5rem;
-  margin: 1rem 0;
-  background: rgb(253, 253, 253);
-  color: black;
-  text-transform: none;
-  font-size: 1.7rem;
-  font-weight: bolder;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.contato .row .conteudo .title
-{
-  text-transform: uppercase;
-  color: cornsilk;
-  font-size: 3rem;
-  padding-bottom: 2rem;
-}
-
-.contato .row .conteudo .info h3
-{
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  color: #eee;
-  padding: 1rem 0;
-  font-weight: normal;
-}
-
-.contato .row .conteudo .info h3 i
-{
-  color: var(--green);
-  padding-right: 1rem;
-}
-
-
-                          /* CURRICULO  */
+                              /* CURRICULO  */
 .curriculo
 {
   text-align: center;
@@ -1899,36 +1882,35 @@ ul#computador-escolha li a img
 }
 
                                                 /* ICONES REDES-SOCIAIS */
+
+.peLink{
+  display: flex;
+  margin-top: -60px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
 .rodape-zapp img{
   width: 18%;
   margin-top: 4px;
 }
 
-}
-
-
-/*********************************************************************************/
-                        /* RESPONSIVO MEDIA QUERIES -- 1200px ( COMPUTER ) */
-
-@media(max-width:1200px)
+.nomeDesenvolvedor
 {
-  html
-  {
-    font-size: 55%;
-  }
-
-  .home
-  {
-    padding: 1rem 4rem;
-  }
+  display: flex;
+  margin-top: -5px;
+  margin-left: 10px;
 }
+
+}
+
 
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1024px and 800px  ( COMPUTER )  */
 
-
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px), 
+       screen and (min-height: 800px) {
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1982,7 +1964,7 @@ ul#computador-escolha li a img
   .containerD, 
   .containerE
   {
-    margin: -68px;
+    margin: -78px; 
   }
 
   .containerC, 
@@ -2001,18 +1983,19 @@ ul#computador-escolha li a img
   {
     position: absolute;
     top: -45px;
+    margin: 40px;
   }
 
 
   .card .card-bg img
   {
-    max-width: 51%;
+    max-width: 65%;
   }
 
  .cardE .card-bgE img,
  .cardC .card-bgC img
  {
-   max-width: 53%;
+   max-width: 63%;
  }
 
    .card-bg img,
@@ -2022,7 +2005,7 @@ ul#computador-escolha li a img
    .card-bgD img,
     .card-bgE img
     {
-    max-width: 56%;
+    max-width: 66%;
   }
   
   .card .title,
@@ -2034,8 +2017,8 @@ ul#computador-escolha li a img
   {
     z-index: 2;
     position: absolute;
-    top: 40px;
-    right: 150px;
+    top: 70px;
+    right: 120px;
     text-align: center;
     line-height: 10px;
     transition: all 0.3s ease-out;
@@ -2092,9 +2075,9 @@ ul#computador-escolha li a img
   {
     z-index: 1;
     position: relative;
-    width: 180px;
-    top: -140px;
-    right: 70px;
+    width: 160px;
+    top: -110px;
+    right: 40px;
     transition: all 0.3s ease-out;
   }
 
@@ -2113,8 +2096,8 @@ ul#computador-escolha li a img
 .contato .row .conteudo
 {
   flex: 1 1 30rem;
-  padding: 20px;
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 10px; 
 }
 
 .contato .row form
@@ -2168,9 +2151,9 @@ ul#computador-escolha li a img
                                                 /* ICONES REDES-SOCIAIS */
 .peLink{
   display: flex;
-  margin-top: -20px;
+  margin-top: -130px;
   border-radius: 5px;
-  margin-left: 150px;
+  margin-left: 350px;
 }
 
 .rodape-linkd img{
@@ -2178,15 +2161,15 @@ ul#computador-escolha li a img
 }
 
 .rodape-zapp img{
-  width: 31%;
+  width: 80%;
   margin-top: 4px;
 }
 
 .nomeDesenvolvedor
 {
   display: flex;
-  margin-top: -5px;
-  margin-left: 130px;
+  margin-top: -30px;
+  margin-left: 145px;
 }
 
                                                      /* CURRICULO  */
@@ -2196,50 +2179,7 @@ ul#computador-escolha li a img
 }
 
 .box-conteudo img{
-  max-width: 60%;
+  max-width: 65%;
 }
 
-}
-
-
-/*********************************************************************************/
-                        /* RESPONSIVO MEDIA QUERIES -- 991px ( COMPUTER )  */
-@media(max-width:991px)
-{
-  header
-  {
-    left: -120%;
-  }
-
-  #menu
-  {
-    display: block;
-  }
-
-  header.toggle
-  {
-    left: 0%;
-  }
-
-  body
-  {
-    padding: 0;
-  }
-}
-
-
-
-/*********************************************************************************/
-                      /* RESPONSIVO MEDIA QUERIES -- 700px ( COMPUTER ) */
-
-@media(max-width:700px)
-{
-  html
-  {
-    font-size: 50%;
-  }
-}
-
-
-
-/*********************************************************************************/
+} 
