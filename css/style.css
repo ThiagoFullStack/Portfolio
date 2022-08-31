@@ -844,13 +844,10 @@ ul#computador-escolha li a img
   max-width: 35%;
 }
 
-
-
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1920px and 1200px  ( COMPUTER ) */
 
-@media screen and (max-width: 1920px), 
-       screen and (max-height: 1200px) {
+@media screen and (min-width: 1920px){
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -904,7 +901,7 @@ ul#computador-escolha li a img
   .containerD, 
   .containerE
   {
-    margin: 50px;
+    margin: 80px;
   }
 
   .containerC, 
@@ -929,13 +926,13 @@ ul#computador-escolha li a img
 
   .card .card-bg img
   {
-    max-width: 76%;
+    max-width: 96%;
   }
 
  .cardE .card-bgE img,
  .cardC .card-bgC img
  {
-   max-width: 75%;
+   max-width: 95%;
  }
 
    .card-bg img,
@@ -945,7 +942,7 @@ ul#computador-escolha li a img
    .card-bgD img,
     .card-bgE img
     {
-    max-width: 80%;
+    max-width: 100%;
   }
   
   .card .title,
@@ -957,8 +954,8 @@ ul#computador-escolha li a img
   {
     z-index: 2;
     position: absolute;
-    top: 40px;
-    right: 110px;
+    top: 60px;
+    right: 40px;
     text-align: center;
     line-height: 10px;
     transition: all 0.3s ease-out;
@@ -972,7 +969,7 @@ ul#computador-escolha li a img
   .cardE .titleE h2
   {
     font-family: 'Eczar', serif;
-    font-size: 18px;
+    font-size: 22px;
     text-transform: uppercase;
     color: #3ECAF6;
     margin-top: -80px;
@@ -986,7 +983,7 @@ ul#computador-escolha li a img
   .cardE .titleE h1
   {
     font-family: 'Rubik Iso', cursive;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 2px;
     color: #d2ee19;
     margin-top: 20px;
@@ -1000,7 +997,7 @@ ul#computador-escolha li a img
   .cardE .titleE h3
   {
     font-family: 'Eczar', serif;
-    font-size: 10px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-top: 20px;
     color: #3ECAF6;
@@ -1015,11 +1012,114 @@ ul#computador-escolha li a img
   {
     z-index: 1;
     position: relative;
-    width: 250px;
-    top: -110px;
-    right: 30px;
+    width: 350px;
+    top: -40px;
+    right: 10px;
     transition: all 0.3s ease-out;
   }
+
+
+                          /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 50%;
+}
+
+                                                 /*SEÇÃO FORMULARIO */
+
+
+.contato .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 80px;
+}
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 80px;
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 10rem;
+  margin-top: 200px;
+}
+
+.contato .row form .box
+{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+
+                                            /* REDES SOCIAIS */
+
+.peLink{
+  display: flex;
+  margin-top: -60px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 130px;
+}
 
 }
 
@@ -1027,8 +1127,8 @@ ul#computador-escolha li a img
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1680px and 1050px  ( COMPUTER )  */
 
-@media screen and (max-width: 1680px), 
-       screen and (max-height: 1050px) {
+
+@media screen and (min-width: 1680px){
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1072,7 +1172,7 @@ ul#computador-escolha li a img
 {
   font-size: rem;
   color: var(--green);
-}
+} 
 
                                     /* CARD DO PORTFOLIO */
   .container, 
@@ -1226,7 +1326,6 @@ ul#computador-escolha li a img
   font-size: 1.7rem;
   font-weight: bolder;
   width: 100%;
-  /* box-shadow: inset 0 0 1em var(--green); */
   border-radius: 10px;
 }
 
@@ -1254,6 +1353,16 @@ ul#computador-escolha li a img
   padding-right: 1rem;
 }
 
+                          /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 43%;
+}
+
 
 
                                                 /* ICONES REDES-SOCIAIS */
@@ -1261,33 +1370,32 @@ ul#computador-escolha li a img
   display: flex;
   margin-top: -60px;
   border-radius: 5px;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
-.peLink img{
-  width: 66px;
-  filter: drop-shadow(0px 0px 1px #4b4b50);
-  animation: flutuar 3s linear infinite;
+.rodape-linkd img{
+  margin-right: 35px;
 }
 
-@keyframes flutuar{
-  0%,
-  100%{
-      transform: translateY(0px);
-  }
-  50%{
-      transform: translateY(-23px);
-  }
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
 }
 
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 130px;
 }
+} 
 
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1600px and 900px  ( COMPUTER )  */
 
-@media screen and (max-width: 1600px), 
-       screen and (max-height: 900px) {
+
+@media screen and (min-width: 1600px){
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1485,7 +1593,6 @@ ul#computador-escolha li a img
   font-size: 1.7rem;
   font-weight: bolder;
   width: 100%;
-  /* box-shadow: inset 0 0 1em var(--green); */
   border-radius: 10px;
 }
 
@@ -1514,10 +1621,38 @@ ul#computador-escolha li a img
 }
 
 
-                                              /* ICONES REDES-SOCIAIS */
+                          /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 38%;
+}
+
+                                                /* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: -160px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
 .rodape-zapp img{
   width: 18%;
   margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 130px;
 }
 
 }
@@ -1526,8 +1661,8 @@ ul#computador-escolha li a img
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1440px and 900px  ( COMPUTER )  */
 
-@media screen and (max-width: 1440px), 
-       screen and (max-height: 900px) {
+
+@media screen and (min-width: 1440px){
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1725,7 +1860,6 @@ ul#computador-escolha li a img
   font-size: 1.7rem;
   font-weight: bolder;
   width: 100%;
-  /* box-shadow: inset 0 0 1em var(--green); */
   border-radius: 10px;
 }
 
@@ -1754,6 +1888,15 @@ ul#computador-escolha li a img
 }
 
 
+                          /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 45%;
+}
 
                                                 /* ICONES REDES-SOCIAIS */
 .rodape-zapp img{
@@ -1781,12 +1924,11 @@ ul#computador-escolha li a img
 }
 
 
-
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1024px and 800px  ( COMPUTER )  */
 
-@media screen and (max-width: 1024px), 
-       screen and (max-height: 800px) {
+
+@media screen and (min-width: 1024px){
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1870,7 +2012,7 @@ ul#computador-escolha li a img
  .cardE .card-bgE img,
  .cardC .card-bgC img
  {
-   max-width: 50%;
+   max-width: 53%;
  }
 
    .card-bg img,
@@ -1958,10 +2100,20 @@ ul#computador-escolha li a img
 
                                                   /*SEÇÃO FORMULARIO */
 
+
+.contato .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -20px;  
+}
+
 .contato .row .conteudo
 {
   flex: 1 1 30rem;
-  padding: 2rem;
+  padding: 20px;
   padding-bottom: 0px;
 }
 
@@ -1971,7 +2123,7 @@ ul#computador-escolha li a img
   padding: 2rem;
   margin: 2rem;
   padding-bottom: 10rem;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .contato .row form .box
@@ -1984,8 +2136,7 @@ ul#computador-escolha li a img
   font-size: 1.2rem;
   font-weight: bolder;
   width: 100%;
-  /* box-shadow: inset 0 0 1em var(--green); */
-  border-radius: 10px;
+  border-radius: 10px; 
 }
 
 .contato .row .conteudo .title
@@ -2015,9 +2166,27 @@ ul#computador-escolha li a img
 
 
                                                 /* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: -20px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
 .rodape-zapp img{
-  width: 24%;
+  width: 31%;
   margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 130px;
 }
 
                                                      /* CURRICULO  */
@@ -2074,4 +2243,3 @@ ul#computador-escolha li a img
 
 
 /*********************************************************************************/
-
