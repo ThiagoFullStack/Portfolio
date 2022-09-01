@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Eczar:wght@500&family=Poppins&family=Rubik+Iso&display=swap');
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1920px and 1080px  ( COMPUTER ) */
+
 :root
 {
   --green: #0CF20C;
@@ -15,7 +19,7 @@
     outline: none;
     border: none;
     text-transform: capitalize;
-    transition: all .5s linear;
+    transition: all .5s linear; 
 }
 
 *::selection
@@ -234,7 +238,7 @@ section
   font-size: 4rem;
   padding: 1rem;
   border-bottom: .1rem solid #fff4;
-  color: #fff;
+  color: #fff; 
 }
 
 .heading span
@@ -261,7 +265,7 @@ section
 .sobre .row .info h3
 {
   color: var(--green);
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1rem 0;
   font-weight: normal;
 }
@@ -269,7 +273,7 @@ section
 .sobre .row .info h3 span
 {
   color: #eee;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0.5rem;
 }
 .sobre .row .habilidades
@@ -278,6 +282,7 @@ section
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 200px; 
 }
 
 .sobre .row .habilidades .box
@@ -321,7 +326,8 @@ section
   .containerD, 
   .containerE
   {
-    margin: -30px;
+    margin: 50px;
+    padding-right: 50px;
   }
 
   .containerC, 
@@ -373,13 +379,13 @@ section
 
   .card .card-bg img
   {
-    max-width: 58%;
+    max-width: 98%;
   }
 
  .cardE .card-bgE img,
  .cardC .card-bgC img
  {
-   max-width: 54%;
+   max-width: 94%;
  }
 
    .card-bg img,
@@ -389,7 +395,7 @@ section
    .card-bgD img,
     .card-bgE img
     {
-    max-width: 60%;
+    max-width: 100%;
   }
   
   .card .title,
@@ -402,7 +408,7 @@ section
     z-index: 2;
     position: absolute;
     top: 40px;
-    right: 150px;
+    right: 30px;
     text-align: center;
     line-height: 10px;
     transition: all 0.3s ease-out;
@@ -416,10 +422,10 @@ section
   .cardE .titleE h2
   {
     font-family: 'Eczar', serif;
-    font-size: 18px;
+    font-size: 27px;
     text-transform: uppercase;
     color: #3ECAF6;
-    margin-top: -80px;
+    margin-top: -70px;
   }
   
   .card .title h1,
@@ -430,10 +436,10 @@ section
   .cardE .titleE h1
   {
     font-family: 'Rubik Iso', cursive;
-    font-size: 30px;
+    font-size: 55px;
     letter-spacing: 2px;
     color: #d2ee19;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
   .card .title h3,
@@ -444,9 +450,9 @@ section
   .cardE .titleE h3
   {
     font-family: 'Eczar', serif;
-    font-size: 10px;
+    font-size: 20px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #3ECAF6;
   }
   
@@ -491,9 +497,9 @@ section
   {
     z-index: 1;
     position: relative;
-    width: 250px;
-    top: -130px;
-    right: 70px;
+    width: 350px;
+    top: -30px;
+    right: 10px;
     transition: all 0.3s ease-out;
   }
 
@@ -506,6 +512,7 @@ section
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 200px;
 }
 
 .contato .row .conteudo
@@ -841,7 +848,7 @@ ul#computador-escolha li a img
 }
 
 .box-conteudo img{
-  max-width: 35%;
+  max-width: 55%;
 }
 
 

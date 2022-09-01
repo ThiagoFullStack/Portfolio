@@ -1,3 +1,1462 @@
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1920px and 1080px  ( COMPUTER ) */
+
+@media screen and (max-width: 1920px), 
+       screen and (max-height: 1080px) {
+
+                                      /* ABOUT MY EXPERIENCE */
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 3rem;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 3rem;
+  padding: 0.5rem;
+}
+
+.sobre .row .habilidades .box
+{
+  width: 23rem;
+  background: #eee;
+  text-align: center;
+  padding: 6rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: 6rem;
+  color: var(--green);
+}
+
+                                    /* CARD DO PORTFOLIO */
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: 50px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+
+
+  .card .card-bg img
+  {
+    max-width: 96%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 95%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 100%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 20px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #3ECAF6;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 350px;
+    top: -40px;
+    right: 10px;
+    transition: all 0.3s ease-out;
+  }
+
+
+                                              /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 38%;
+}
+
+                                                 /*SEÇÃO FORMULARIO */
+
+
+.contato .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 80px;
+}
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 80px;
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 10rem;
+  margin-top: 200px;
+}
+
+.contato .row form .box
+{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px; 
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 2.5rem;
+  padding-bottom: 2rem; 
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+
+                                            /* REDES SOCIAIS */
+
+.peLink{
+  display: flex;
+  margin-top: -60px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 130px;
+}
+
+}
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1680px and 1050px  ( COMPUTER )  */
+
+@media screen and (max-width: 1680px), 
+       screen and (max-height: 1050px) {
+
+                                      /* ABOUT MY EXPERIENCE */
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -200px;
+  padding-top: 200px;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  font-weight: normal; margin-left: 200px;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+
+.sobre .row .info .btn
+{
+  margin-left: 200px;
+}
+
+.sobre .row .habilidades .box
+{
+  width: 25rem;
+  background: #eee;
+  text-align: center;
+  padding: 6rem;
+  margin: 3rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: rem;
+  color: var(--green);
+}
+
+                                    /* CARD DO PORTFOLIO */
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -30px;
+    margin-right: 30px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+
+
+  .card .card-bg img
+  {
+    max-width: 86%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 85%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 90%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 20px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #3ECAF6;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 280px;
+    top: -90px;
+    right: 25px;
+    transition: all 0.3s ease-out;
+  }
+
+                                                  /*SEÇÃO FORMULARIO */
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 4rem;
+  margin-top: 200px;
+}
+
+.contato .row form .box
+{
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+                          /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 43%;
+}
+
+
+
+                                                /* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: -60px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 130px;
+}
+} 
+
+
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1600px and 900px  ( COMPUTER )  */
+
+@media screen and (max-width: 1600px), 
+       screen and (max-height: 900px) {
+
+                                      /* ABOUT MY EXPERIENCE */
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+
+.sobre .row .habilidades .box
+{
+  width: 20rem;
+  background: #eee;
+  text-align: center;
+  padding: 3rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: 5rem;
+  color: var(--green);
+}
+
+                                          /* CARD DO PORTFOLIO */
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -30px;
+    margin-right: 20px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+
+
+  .card .card-bg img
+  {
+    max-width: 76%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 75%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 80%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 20px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #3ECAF6;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 250px;
+    top: -110px;
+    right: 30px;
+    transition: all 0.3s ease-out;
+  }
+
+                                                 /*SEÇÃO FORMULARIO */
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 4rem;
+  margin-top: -10px;
+}
+
+.contato .row form .box
+{
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+
+                                                /* CURRICULO  */
+.curriculo 
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 38%;
+}
+
+                                                /* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: 30px;
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 80px;
+}
+
+}
+
+
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1440px and 900px  ( COMPUTER )  */
+
+@media screen and (max-width: 1440px), 
+       screen and (max-height: 900px) {
+
+                                      /* ABOUT MY EXPERIENCE */
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px; 
+  margin-top: -30px;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  font-weight: normal;
+  margin: 50;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 2.5rem;
+  padding: 0.5rem; 
+}
+
+.sobre .row .info .btn
+{
+ 
+  font-size: 2rem;
+  margin-left: 200px; 
+}
+
+.sobre .row .habilidades .box
+{
+  width: 17rem;
+  background: #eee;
+  text-align: center;
+  padding: 3rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: 5rem;
+  color: var(--green);
+}
+
+                                    /* CARD DO PORTFOLIO */
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -40px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+
+
+  .card .card-bg img
+  {
+    max-width: 76%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 75%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 80%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 30px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #3ECAF6;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 280px;
+    top: -80px;
+    right: 30px;
+    transition: all 0.3s ease-out;
+  }
+
+                                                     /*SEÇÃO FORMULARIO */
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 4rem;
+  margin-top: 50px;
+}
+
+.contato .row form .box
+{
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+
+                                                /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 45%;
+}
+
+                                          /* ICONES REDES-SOCIAIS */
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+}
+
+
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1366px and 768px  ( COMPUTER )  */
+
+@media screen and (max-width: 1366px), 
+       screen and (max-height: 768px) {
+
+                                      /* ABOUT MY EXPERIENCE */
+
+
+
+.heading
+{
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: .1rem solid #fff4;
+  color: #fff;
+}
+
+.heading span
+{
+  color: var(--green);
+}
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.sobre .row .info
+{
+  flex: 1 1 48rem;
+  padding: 2em 1rem;
+  padding-left: 6rem;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.sobre .row .habilidades
+{
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sobre .row .habilidades .box
+{
+  width: 20rem;
+  background: #eee;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: 4rem;
+  color: var(--green);
+}
+
+
+
+                                      /* CARD 3D PORTFOLIO */
+
+  .container-card
+  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    perspective: 1200px;
+    margin-top: 100px;
+  }
+
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -40px;
+    padding-right: 20px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  .card,
+  .cardA,
+  .cardB,
+  .cardC,
+  .cardD,
+  .cardE
+  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 500px;
+    transform-style: preserve-3d;
+    cursor: pointer; 
+  }
+  
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+  
+  .card .card-bg img,
+  .cardA .card-bgA img,
+  .cardB .card-bgB img,
+  .cardC .card-bgC img,
+  .cardD .card-bgD img,
+  .cardE .card-bgE img
+  {
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px; 
+  }
+
+  .card .card-bg img
+  {
+    max-width: 58%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 54%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 60%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 20px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #3ECAF6;
+  }
+  
+  .card .title h1, 
+  .card .title h2, 
+  .card .title h3,
+  .cardA .titleA h1, 
+  .cardA .titleA h2, 
+  .cardA .titleA h3,
+  .cardB .titleB h1, 
+  .cardB .titleB h2, 
+  .cardB .titleB h3,
+  .cardC .titleC h1, 
+  .cardC .titleC h2, 
+  .cardC .titleC h3,
+  .cardD .titleD h1, 
+  .cardD .titleD h2, 
+  .cardD .titleD h3,
+  .cardE .titleE h1, 
+  .cardE .titleE h2, 
+  .cardE .titleE h3
+  {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  .card .images,
+  .cardA .imagesA,
+  .cardB .imagesB,
+  .cardC .imagesC,
+  .cardD .imagesD,
+  .cardE .imagesE
+  {
+    z-index: 2;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 250px;
+    top: -130px;
+    right: 70px;
+    transition: all 0.3s ease-out;
+  }
+
+
+                                           /*SEÇÃO FORMULARIO */
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 1rem;
+  margin: 1.5rem;
+  padding-bottom: 4rem;
+  margin-top: 50px;
+}
+
+.contato .row form .box
+{
+  padding: 1rem;
+  margin: 1rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+
+                                    /* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: -120px;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 18%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 30px;
+}
+
+
+                                    /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.box-conteudo img{
+  max-width: 40%;
+}
+
+}
+
+
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1024px and 800px  ( COMPUTER )  */
@@ -12,7 +1471,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 .sobre .row .info h3
@@ -30,13 +1489,20 @@
   padding: 0.5rem;
 }
 
+.sobre .row .info .btn
+{
+  color: #eee;
+  font-size: 2rem;
+  padding: 2px 3;
+}
+
 .sobre .row .habilidades .box
 {
-  width: 22rem;
+  width: 12rem;
   background: #eee;
   text-align: center;
-  padding: 5rem;
-  margin: 2rem;
+  padding: 3rem;
+  margin: 1rem;
   box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
   font-weight: bolder;
   border-radius: 10px;
@@ -44,7 +1510,7 @@
 
 .sobre .row .habilidades .box span
 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--green);
 }
 
@@ -57,6 +1523,7 @@
   .containerE
   {
     margin: -78px; 
+    padding: 7px;
   }
 
   .containerC, 
@@ -243,7 +1710,7 @@
                                                 /* ICONES REDES-SOCIAIS */
 .peLink{
   display: flex;
-  margin-top: -130px;
+  margin-top: -150px;
   border-radius: 5px;
   margin-left: 350px;
 }
@@ -260,7 +1727,7 @@
 .nomeDesenvolvedor
 {
   display: flex;
-  margin-top: -30px;
+  margin-top: -10px;
   margin-left: 145px;
 }
 
