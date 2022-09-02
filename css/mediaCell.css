@@ -236,6 +236,28 @@
   padding-top: -50px;
 }
 
+                                                /* ICONES REDES-SOCIAIS */
+.peLink{
+  margin-left: 150px;
+  padding-top: 85px; 
+}
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 140%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -5px;
+  margin-left: 145px;
+}
+
 
 }
 
