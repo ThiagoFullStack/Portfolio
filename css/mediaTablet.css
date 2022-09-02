@@ -30,8 +30,7 @@
                       /* RESPONSIVO MEDIA QUERIES -- 768px ( TABLET ) */
 
 
-@media screen and (max-width: 768px), 
-       screen and (max-height: 1024px)
+@media screen and (max-width: 768px)
 {
   html
   {

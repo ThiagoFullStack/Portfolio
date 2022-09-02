@@ -519,10 +519,9 @@
   text-align: center;
 }
 
-.box-conteudo img{
-  max-width: 43%;
+.curriculo .box-conteudo .box img{
+  max-width: 44%;
 }
-
 
 
                                                 /* ICONES REDES-SOCIAIS */
@@ -789,7 +788,7 @@
   text-align: center;
 }
 
-.curriculo .box-conteudo img{
+.curriculo .box-conteudo .box img{
   max-width: 40%;
 }
 
@@ -1066,7 +1065,7 @@
   text-align: center;
 }
 
-.box-conteudo img{
+.curriculo .box-conteudo img{
   max-width: 45%;
 }
 
@@ -1450,8 +1449,8 @@
   text-align: center;
 }
 
-.curriculo .box-conteudo img{
-  max-width: 33%;
+.box-conteudo img{
+  max-width: 35%;
 }
 
 }
