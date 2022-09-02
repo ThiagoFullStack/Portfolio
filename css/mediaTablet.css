@@ -1,7 +1,7 @@
 
 /*********************************************************************************/
-                        /* RESPONSIVO MEDIA QUERIES --414px ( CELL )  */
-@media(max-width:414px)
+                        /* RESPONSIVO MEDIA QUERIES -- 991px ( TABLET )  */
+@media(max-width:991px)
 {
   header
   {
@@ -27,9 +27,9 @@
 
 
 /*********************************************************************************/
-                      /* RESPONSIVO MEDIA QUERIES -- 360px ( CELL ) */
+                      /* RESPONSIVO MEDIA QUERIES -- 700px ( TABLET ) */
 
-@media(max-width:360px)
+@media(max-width:700px)
 {
   html
   {

@@ -790,7 +790,7 @@
 }
 
 .box-conteudo img{
-  max-width: 38%;
+  max-width: 35%;
 }
 
                                                 /* ICONES REDES-SOCIAIS */
@@ -1456,12 +1456,29 @@
 
 }
 
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1200px ( COMPUTER ) */
+
+@media(max-width:1200px)
+{
+  html
+  {
+    font-size: 55%;
+  }
+
+  .home
+  {
+    padding: 1rem 4rem;
+  }
+}
+
 
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 1024px and 800px  ( COMPUTER )  */
 
-@media(max-width: 1024px){
+@media screen and (max-width: 1024px), 
+       screen and (max-height: 800px){
 
                                       /* ABOUT MY EXPERIENCE */
 
@@ -1742,3 +1759,4 @@
 }
 
 } 
+
