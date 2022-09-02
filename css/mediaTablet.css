@@ -1,7 +1,7 @@
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES -- 991px ( TABLET )  */
-@media(max-width:991px)
+/* @media(max-width:991px)
 {
   header
   {
@@ -22,20 +22,60 @@
   {
     padding: 0;
   }
+} */
+
+
+
+/*********************************************************************************/
+                      /* RESPONSIVO MEDIA QUERIES -- 768px ( TABLET ) */
+
+
+/* @media screen and (max-width: 768px), 
+       screen and (max-height: 1024px)
+{
+  html
+  {
+    font-size: 50%;
+  }
+} */
+
+                                                /* ICONES REDES-SOCIAIS */
+/* .peLink{
+  display: flex;
+  margin-top: 150px;
+  border-radius: 5px;
+  margin-left: 350px;
 }
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 80%;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  font-size: 10px;
+  margin-top: 200px;
+  margin-left: 145px;
+} */
 
 
 
 /*********************************************************************************/
                       /* RESPONSIVO MEDIA QUERIES -- 700px ( TABLET ) */
 
-@media(max-width:700px)
+/* @media(max-width:700px)
 {
   html
   {
     font-size: 50%;
   }
-}
+} */
 
 
 

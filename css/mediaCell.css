@@ -1,7 +1,7 @@
 
 /*********************************************************************************/
                         /* RESPONSIVO MEDIA QUERIES --414px ( CELL )  */
-@media(max-width:414px)
+/* @media(max-width:414px)
 {
   header
   {
@@ -22,20 +22,20 @@
   {
     padding: 0;
   }
-}
+} */
 
 
 
 /*********************************************************************************/
                       /* RESPONSIVO MEDIA QUERIES -- 360px ( CELL ) */
 
-@media(max-width:360px)
+/* @media(max-width:360px)
 {
   html
   {
     font-size: 50%;
   }
-}
+} */
 
 
 
