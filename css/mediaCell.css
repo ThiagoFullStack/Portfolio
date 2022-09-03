@@ -769,22 +769,34 @@ header .navbar ul li a
 
                                     /* CARD DO PORTFOLIO */
 
+ .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -80px; 
+    /* padding: 7px; */
+    /* padding-right: -100px; */
+  }
+
   .portfolio
   {
-    margin: 50px;
-    margin-right: -100px;
+    /* margin: 50px; */
+    margin-right: -200px;
   }                                    
   
   .containerB
   {
-    margin-top: -230px;
+    margin-top: -220px;
   }
 
   .containerC, 
   .containerD, 
   .containerE
   {
-    margin-top: -250px;
+    margin-top: -210px;
   }
 
   .containerC
@@ -924,7 +936,7 @@ header .navbar ul li a
 
 
 
-                    /*SEÇÃO FORMULARIO */
+                                      /*SEÇÃO FORMULARIO */
 
 .contato .row
 {
@@ -932,7 +944,7 @@ header .navbar ul li a
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: -50px;
+  margin-top: -160px;
 }
 
                                                 /* ICONES REDES-SOCIAIS */
@@ -943,18 +955,24 @@ header .navbar ul li a
 
 .rodape-linkd img{
   margin-right: 35px;
+  width: 65%;
+}
+
+.rodape-git img{
+  width: 65%;
 }
 
 .rodape-zapp img{
-  width: 140%;
+  width: 180%;
   margin-top: 4px;
+  padding-right: 100px;
 }
 
 .nomeDesenvolvedor
 {
   display: flex;
   margin-top: -5px;
-  margin-left: 145px;
+  margin-left: 135px;
 }
 
 
