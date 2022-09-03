@@ -22,14 +22,10 @@
     padding: 0;
   }
 
-
-
-
-
   header .avatar-user img
 {
-  height: 25rem;
-  width: 25rem;
+  height: 22rem;
+  width: 22rem;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -38,13 +34,13 @@
 
 header .avatar-user .name
 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: #fff;
 }
 
 header .avatar-user .postagem
 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
 }
 
@@ -63,9 +59,10 @@ header .navbar ul li a
 {
   display: block;
   padding: 1rem;
-  margin: 6.5rem 0;
+  margin: 1.5rem 0;
+  /* background: #368EE7; */
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   border-radius: 5rem;
 }
@@ -123,7 +120,7 @@ header .navbar ul li a
 .sobre .row .info h3
 {
   color: var(--green);
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 1rem 0;
   font-weight: normal;
 }
@@ -131,7 +128,7 @@ header .navbar ul li a
 .sobre .row .info h3 span
 {
   color: #eee;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0.5rem;
 }
 
