@@ -617,7 +617,7 @@
   .containerD, 
   .containerE
   {
-    margin-top: -180px;
+    margin-top: -150px;
   }
 
   .card .card-bg,
@@ -630,7 +630,6 @@
     position: absolute;
     top: -45px;
   }
-
 
   .card .card-bg img
   {
@@ -1096,7 +1095,7 @@
   font-size: 4rem;
   padding: 1rem;
   border-bottom: .1rem solid #fff4;
-  color: #fff;
+  color: #fff; 
 }
 
 .heading span
@@ -1110,7 +1109,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 1rem 0;
+  padding: 1rem 0; 
 }
 
 .sobre .row .info
@@ -1412,14 +1411,14 @@
 .contato .row .conteudo .info h3 i
 {
   color: var(--green);
-  padding-right: 1rem;
+  padding-right: 1rem; 
 }
 
 
                                     /* ICONES REDES-SOCIAIS */
 .peLink{
   display: flex;
-  margin-top: -100px;
+  margin-top: 10px;
   border-radius: 5px;
   margin-left: 50px;
 }
@@ -1449,8 +1448,385 @@
   text-align: center;
 }
 
-.box-conteudo img{
-  max-width: 35%;
+.curriculo .box-conteudo .box img{
+  max-width: 40%;
+}
+
+}
+
+
+
+/*********************************************************************************/
+                        /* RESPONSIVO MEDIA QUERIES -- 1288px and 800px  ( COMPUTER )  */
+
+@media(max-width:1288px){
+
+                                      /* ABOUT MY EXPERIENCE */
+
+
+
+.heading
+{
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: .1rem solid #fff4;
+  color: #fff;
+}
+
+.heading span
+{
+  color: var(--green);
+}
+
+.sobre .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-top: 70px;
+}
+
+.sobre .row .info
+{
+  flex: 1 1 48rem;
+  padding: 2em 1rem;
+  padding-left: 6rem;
+}
+
+.sobre .row .info h3
+{
+  color: var(--green);
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.sobre .row .info h3 span
+{
+  color: #eee;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.sobre .row .habilidades
+{
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sobre .row .habilidades .box
+{
+  width: 15rem;
+  background: #eee;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: inset 0 0 1em gold , 0 0 1em var(--green);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sobre .row .habilidades .box span
+{
+  font-size: 4rem;
+  color: var(--green);
+}
+
+
+
+                                      /* CARD 3D PORTFOLIO */
+
+  .container-card
+  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    perspective: 1200px;
+    margin-top: 100px;
+  }
+
+  .container, 
+  .containerA, 
+  .containerB, 
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin: -40px;
+  }
+
+  .containerC, 
+  .containerD, 
+  .containerE
+  {
+    margin-top: -180px;
+  }
+
+  .card,
+  .cardA,
+  .cardB,
+  .cardC,
+  .cardD,
+  .cardE
+  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 500px;
+    transform-style: preserve-3d;
+    cursor: pointer; 
+  }
+  
+  .card .card-bg,
+  .cardA .card-bgA,
+  .cardB .card-bgB,
+  .cardC .card-bgC,
+  .cardD .card-bgD,
+  .cardE .card-bgE
+  {
+    position: absolute;
+    top: -45px;
+  }
+  
+  .card .card-bg img,
+  .cardA .card-bgA img,
+  .cardB .card-bgB img,
+  .cardC .card-bgC img,
+  .cardD .card-bgD img,
+  .cardE .card-bgE img
+  {
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px; 
+  }
+
+  .card .card-bg img
+  {
+    max-width: 58%;
+  }
+
+ .cardE .card-bgE img,
+ .cardC .card-bgC img
+ {
+   max-width: 54%;
+ }
+
+   .card-bg img,
+   .card-bgA img,
+   .card-bgB img,
+   .card-bgC img,
+   .card-bgD img,
+    .card-bgE img
+    {
+    max-width: 60%;
+  }
+  
+  .card .title,
+  .cardA .titleA,
+  .cardB .titleB,
+  .cardC .titleC,
+  .cardD .titleD,
+  .cardE .titleE
+  {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    text-align: center;
+    line-height: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card .title h2,
+  .cardA .titleA h2,
+  .cardB .titleB h2,
+  .cardC .titleC h2,
+  .cardD .titleD h2,
+  .cardE .titleE h2
+  {
+    font-family: 'Eczar', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3ECAF6;
+    margin-top: -80px;
+  }
+  
+  .card .title h1,
+  .cardA .titleA h1,
+  .cardB .titleB h1,
+  .cardC .titleC h1,
+  .cardD .titleD h1,
+  .cardE .titleE h1
+  {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #d2ee19;
+    margin-top: 20px;
+  }
+  
+  .card .title h3,
+  .cardA .titleA h3,
+  .cardB .titleB h3,
+  .cardC .titleC h3,
+  .cardD .titleD h3,
+  .cardE .titleE h3
+  {
+    font-family: 'Eczar', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #3ECAF6;
+  }
+  
+  .card .title h1, 
+  .card .title h2, 
+  .card .title h3,
+  .cardA .titleA h1, 
+  .cardA .titleA h2, 
+  .cardA .titleA h3,
+  .cardB .titleB h1, 
+  .cardB .titleB h2, 
+  .cardB .titleB h3,
+  .cardC .titleC h1, 
+  .cardC .titleC h2, 
+  .cardC .titleC h3,
+  .cardD .titleD h1, 
+  .cardD .titleD h2, 
+  .cardD .titleD h3,
+  .cardE .titleE h1, 
+  .cardE .titleE h2, 
+  .cardE .titleE h3
+  {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  .card .images,
+  .cardA .imagesA,
+  .cardB .imagesB,
+  .cardC .imagesC,
+  .cardD .imagesD,
+  .cardE .imagesE
+  {
+    z-index: 2;
+  }
+  
+  .card .images .power,
+  .cardA .imagesA .powerA,
+  .cardB .imagesB .powerB,
+  .cardC .imagesC .powerC,
+  .cardD .imagesD .powerD,
+  .cardE .imagesE .powerE
+  {
+    z-index: 1;
+    position: relative;
+    width: 250px;
+    top: -130px;
+    right: 70px;
+    transition: all 0.3s ease-out;
+  }
+
+
+                                           /*SEÇÃO FORMULARIO */
+
+.contato .row .conteudo
+{
+  flex: 1 1 30rem;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.contato .row form
+{
+  flex: 1 1 45rem;
+  padding: 1rem;
+  margin: 1.5rem;
+  padding-bottom: 4rem;
+  margin-top: -20px;
+}
+
+.contato .row form .box
+{
+  padding: 1rem;
+  margin: 1rem 0;
+  background: rgb(253, 253, 253);
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato .row .conteudo .title
+{
+  text-transform: uppercase;
+  color: cornsilk;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contato .row .conteudo .info h3
+{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contato .row .conteudo .info h3 i
+{
+  color: var(--green);
+  padding-right: 1rem;
+}
+
+
+                                    /* ICONES REDES-SOCIAIS */
+.peLink{
+  display: flex;
+  margin-top: -180px;
+  border-radius: 5px;
+  margin-left: 450px;
+}
+
+
+
+.rodape-linkd img{
+  margin-right: 35px;
+}
+
+.rodape-zapp img{
+  width: 120px;
+  margin-top: 4px;
+}
+
+.nomeDesenvolvedor
+{
+  display: flex;
+  margin-top: -22px;
+  margin-left: 420px;
+}
+
+
+                                    /* CURRICULO  */
+.curriculo
+{
+  text-align: center;
+}
+
+.curriculo .box-conteudo .box img{
+  max-width: 47%;
 }
 
 }
